@@ -1,0 +1,34 @@
+git config --global user.name "Your Name"
+git config --global user.email "you@example.com"
+'https://github.com/ronh591/DELMAR.git'
+bserv3425@cloudshell:~/DELMAR (secure-gizmo-253723)$ cat gitclone
+echo "https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository"
+echo "https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository"
+echo "https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository"
+********************************
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'bserv3425@cs-803746348687-default.(none)')
+bserv3425@cloudshell:~/DELMAR (secure-gizmo-253723)$ git config user.email "ronh591@gmail.com"
+bserv3425@cloudshell:~/DELMAR (secure-gizmo-253723)$ git config user.name "ronhoward"
+bserv3425@cloudshell:~/DELMAR (secure-gizmo-253723)$ git push origin https://github.com/ronh591/DELMAR/upload/main
+fatal: invalid refspec 'https://github.com/ronh591/DELMAR/upload/main'
+bserv3425@cloudshell:~/DELMAR (secure-gizmo-253723)$ git push origin DELMAR
+error: src refspec DELMAR does not match any
+error: failed to push some refs to 'https://github.com/ronh591/DELMAR.git'
+bserv3425@cloudshell:~/DELMAR (secure-gizmo-253723)$ git push origin ronh591/DELMAR
+error: src refspec ronh591/DELMAR does not match any
+error: failed to push some refs to 'https://github.com/ronh591/DELMAR.git'
+bserv3425@cloudshell:~/DELMAR (secure-gizmo-253723)$ ^C
+bserv3425@cloudshell:~/DELMAR (secure-gizmo-253723)$ git push origin https://github.com/ronh591/DELMAR.git
+fatal: invalid refspec 'https://github.com/ronh591/DELMAR.git'
+bserv3425@cloudshell:~/DELMAR (secure-gizmo-253723)$ git push origin ~/DELMAR
+fatal: invalid refspec '/home/bserv3425/DELMAR'
+bserv3425@cloudshell:~/DELMAR (secure-gizmo-253723)$ cat gitclone
+echo "https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository"
+echo "https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository"
+echo "https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository"
+
+bserv3425@cloudshell:~/DELMAR (secure-gizmo-253723)$ ^C
+bserv3425@cloudshell:~/DELMAR (secure-gizmo-253723)$ 
