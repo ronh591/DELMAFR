@@ -1,0 +1,19 @@
+import random
+
+def generate_time():
+    hours = random.randint(0, 23)
+    minutes = random.randint(0, 59)
+    seconds = random.randint(0, 59)
+
+    print(f"{hours:02d}:{minutes:02d}:{seconds:02d}")
+
+def main():
+    while True:
+        generate_time()
+
+        choice = input("Generate another time (y/n) or quit (q)? ")
+        if choice.lower() != "y":
+            break
+
+if __name__ == "__main__":
+    main()
